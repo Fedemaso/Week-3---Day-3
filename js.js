@@ -2,8 +2,6 @@ let toDoList = document.getElementById("to-do-list-form")
 
 
 
-
-
 toDoList.addEventListener( "submit", function (e) {
     e.preventDefault()
 
@@ -14,9 +12,6 @@ let btn = document.getElementById('button')
 btn.addEventListener('click', (e) => {
         console.log("okfinqua")
 })
-
-
-
 
 
 
@@ -50,19 +45,16 @@ allDeleteButtons.forEach((button) => {
 button.addEventListener ("click", function (e) {
 
 
-
-
-
 let buttonClicked = e.target
 let questToRemove = buttonClicked.parentElement
 questToRemove.remove() 
     })
 
+
 }) 
 
-
+toDoInputField.value = " "
 
 })
 
       
-toDoInputField.value = " "
