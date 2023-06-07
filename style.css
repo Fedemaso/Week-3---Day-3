@@ -71,14 +71,16 @@ body {
   }
   
   .task {
-    display: flex;
-    align-items: center;
+   
+    text-align: center;
     justify-content: space-between;
     padding: 10px;
     background-color: #f9f9f9;
     border-radius: 5px;
     margin-bottom: 10px;
     font-size: 2em;
+    width: max-content;
+
   }
   
   .task.completed {
