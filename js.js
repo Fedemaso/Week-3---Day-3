@@ -46,7 +46,7 @@ button.addEventListener ("click", function (e) {
 
 
 let buttonClicked = e.target
-let questToRemove = buttonClicked.parentElement
+let questToRemove = buttonClicked.parentElement.parentElement //devo fare due volte .parentelement per cancellare prima il contenuto e poi anche il contenitore del contenuto 
 questToRemove.remove() 
     })
 
