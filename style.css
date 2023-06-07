@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+
+body {
+    font-family: 'Shadows Into Light', cursive;
+    background-image: url(https://blog.hubspot.com/hubfs/To_Do_List.png) ;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3em;
+  }
+  
+  .input-container {
+    display: flex;
+    
+  }
+  
+.box {
+    display: inline-block;
+}
+
+
+  #toDo {
+    flex-grow: 1;
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 90px;
+    
+  }
+  
+  #button {
+    padding: 5px 10px;
+    font-size: 19px;
+    background-color: #c0b9b7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Shadows Into Light', cursive;
+    
+  }
+  
+#delete-button {
+    padding: 5px 10px;
+    font-size: 19px;
+    background-color: #c0b9b7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+
+  #taskList {
+    margin-top: 20px;
+    list-style-type: none;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 2em;
+  }
+  
+  .task.completed {
+    text-decoration: line-through;
+  }
+  
+
+  
+  
+  
